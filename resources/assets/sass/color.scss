@@ -1,0 +1,20 @@
+//$user-primary-color: #B71C1C !important;
+$user-primary-color: lighten(grey, 20) !important;
+$user-primary-text-color: $user-primary-color;
+$secondary-color: #039be5;
+
+.user-color {
+  background-color: $user-primary-color;
+}
+
+.user-text-color {
+  color: $user-primary-text-color;
+}
+
+.doctor-color {
+  background-color: $secondary-color;
+}
+
+.doctor-text-color {
+  color: $secondary-color;
+}
